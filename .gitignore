@@ -2,6 +2,7 @@
 /농산물가격예측
 /손글씨분류
 /result
+/data
 
 *.csv
 *.zip
