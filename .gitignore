@@ -3,6 +3,7 @@
 /손글씨분류
 /result
 /data
+/wandb
 
 *.csv
 *.zip
@@ -10,3 +11,4 @@
 *.json
 *.txt
 *.h5
+*.pth
