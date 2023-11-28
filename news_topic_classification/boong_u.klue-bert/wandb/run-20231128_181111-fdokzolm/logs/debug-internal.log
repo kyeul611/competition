@@ -1,0 +1,352 @@
+2023-11-28 18:11:12,008 INFO    StreamThr :19260 [internal.py:wandb_internal():86] W&B internal server running at pid: 19260, started at: 2023-11-28 18:11:12.007187
+2023-11-28 18:11:12,009 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status
+2023-11-28 18:11:12,010 INFO    WriterThread:19260 [datastore.py:open_for_write():85] open: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\run-fdokzolm.wandb
+2023-11-28 18:11:12,011 DEBUG   SenderThread:19260 [sender.py:send():380] send: header
+2023-11-28 18:11:12,012 DEBUG   SenderThread:19260 [sender.py:send():380] send: run
+2023-11-28 18:11:12,803 INFO    SenderThread:19260 [dir_watcher.py:__init__():211] watching files in: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files
+2023-11-28 18:11:12,803 INFO    SenderThread:19260 [sender.py:_start_run_threads():1122] run started: fdokzolm with start time 1701162671.460775
+2023-11-28 18:11:12,813 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: check_version
+2023-11-28 18:11:12,813 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: check_version
+2023-11-28 18:11:13,166 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: run_start
+2023-11-28 18:11:13,185 DEBUG   HandlerThread:19260 [system_info.py:__init__():32] System info init
+2023-11-28 18:11:13,185 DEBUG   HandlerThread:19260 [system_info.py:__init__():47] System info init done
+2023-11-28 18:11:13,185 INFO    HandlerThread:19260 [system_monitor.py:start():194] Starting system monitor
+2023-11-28 18:11:13,185 INFO    SystemMonitor:19260 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-28 18:11:13,185 INFO    HandlerThread:19260 [system_monitor.py:probe():214] Collecting system info
+2023-11-28 18:11:13,189 INFO    SystemMonitor:19260 [interfaces.py:start():190] Started cpu monitoring
+2023-11-28 18:11:13,190 INFO    SystemMonitor:19260 [interfaces.py:start():190] Started disk monitoring
+2023-11-28 18:11:13,193 DEBUG   HandlerThread:19260 [system_info.py:probe():196] Probing system
+2023-11-28 18:11:13,193 INFO    SystemMonitor:19260 [interfaces.py:start():190] Started gpu monitoring
+2023-11-28 18:11:13,200 INFO    SystemMonitor:19260 [interfaces.py:start():190] Started memory monitoring
+2023-11-28 18:11:13,218 INFO    SystemMonitor:19260 [interfaces.py:start():190] Started network monitoring
+2023-11-28 18:11:13,219 DEBUG   HandlerThread:19260 [system_info.py:_probe_git():181] Probing git
+2023-11-28 18:11:13,286 DEBUG   HandlerThread:19260 [system_info.py:_probe_git():189] Probing git done
+2023-11-28 18:11:13,286 DEBUG   HandlerThread:19260 [system_info.py:probe():244] Probing system done
+2023-11-28 18:11:13,286 DEBUG   HandlerThread:19260 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.4', 'heartbeatAt': '2023-11-28T09:11:13.193893', 'startedAt': '2023-11-28T09:11:11.453144', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/kyeul611/competition.git', 'commit': 'c5ee7f722f2fb0d730671962141d8ea83bafbf3d'}, 'email': 'gyul611@likelion.org', 'root': 'C:/Users/Kyeul/Desktop/code/competition', 'host': 'KYEUL-DESKTOP', 'username': 'Kyeul', 'executable': 'C:\\Users\\Kyeul\\anaconda3\\envs\\nlp\\python.exe', 'cpu_count': 10, 'cpu_count_logical': 20, 'cpu_freq': {'current': 3600.0, 'min': 0.0, 'max': 3600.0}, 'cpu_freq_per_core': [{'current': 3600.0, 'min': 0.0, 'max': 3600.0}], 'disk': {'/': {'total': 953.0647048950195, 'used': 574.7135276794434}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 63.880401611328125}}
+2023-11-28 18:11:13,286 INFO    HandlerThread:19260 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-28 18:11:13,286 INFO    HandlerThread:19260 [system_monitor.py:probe():227] Publishing system info
+2023-11-28 18:11:13,286 DEBUG   HandlerThread:19260 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-28 18:11:13,287 DEBUG   HandlerThread:19260 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-28 18:11:13,287 DEBUG   HandlerThread:19260 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-11-28 18:11:13,810 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\requirements.txt
+2023-11-28 18:11:13,810 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\conda-environment.yaml
+2023-11-28 18:11:19,120 DEBUG   HandlerThread:19260 [system_info.py:_save_conda():87] Saving conda packages done
+2023-11-28 18:11:19,121 INFO    HandlerThread:19260 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-28 18:11:19,121 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:11:19,121 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-28 18:11:19,121 DEBUG   SenderThread:19260 [sender.py:send():380] send: files
+2023-11-28 18:11:19,121 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-11-28 18:11:19,133 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:11:19,134 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:11:19,134 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:11:19,667 DEBUG   SenderThread:19260 [sender.py:send():380] send: telemetry
+2023-11-28 18:11:19,667 DEBUG   SenderThread:19260 [sender.py:send():380] send: config
+2023-11-28 18:11:19,668 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:11:19,668 DEBUG   SenderThread:19260 [sender.py:send():380] send: telemetry
+2023-11-28 18:11:19,668 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:11:19,668 WARNING SenderThread:19260 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2023-11-28 18:11:19,668 DEBUG   SenderThread:19260 [sender.py:send():380] send: telemetry
+2023-11-28 18:11:19,865 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\conda-environment.yaml
+2023-11-28 18:11:19,866 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-metadata.json
+2023-11-28 18:11:19,866 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\output.log
+2023-11-28 18:11:20,178 INFO    wandb-upload_0:19260 [upload_job.py:push():131] Uploaded file C:\Users\Kyeul\AppData\Local\Temp\tmp09x437k3wandb\uz7nrav1-wandb-metadata.json
+2023-11-28 18:11:21,877 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\output.log
+2023-11-28 18:11:22,688 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:11:27,749 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:11:32,797 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:11:34,143 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:11:34,143 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:11:34,144 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:11:38,380 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:11:43,433 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:11:44,101 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\config.yaml
+2023-11-28 18:11:48,763 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:11:49,147 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:11:49,147 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:11:49,148 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:11:54,509 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:11:56,609 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-28 18:11:56,610 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:11:56,610 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:11:56,610 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:11:56,610 DEBUG   SenderThread:19260 [sender.py:send():380] send: history
+2023-11-28 18:11:56,610 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: summary_record
+2023-11-28 18:11:56,612 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:11:57,226 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:11:59,641 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:12:04,157 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:12:04,157 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:12:04,158 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:12:04,578 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-28 18:12:04,579 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:12:04,580 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:12:04,580 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:12:04,580 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:12:04,580 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:12:04,580 DEBUG   SenderThread:19260 [sender.py:send():380] send: history
+2023-11-28 18:12:04,580 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: summary_record
+2023-11-28 18:12:04,582 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:12:05,302 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:12:05,592 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:12:10,636 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:12:13,220 DEBUG   SystemMonitor:19260 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-28 18:12:13,221 DEBUG   SenderThread:19260 [sender.py:send():380] send: stats
+2023-11-28 18:12:16,256 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:12:17,432 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\config.yaml
+2023-11-28 18:12:19,163 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:12:19,163 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:12:19,164 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:12:22,458 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:12:27,517 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:12:32,572 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:12:34,172 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:12:34,172 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:12:34,172 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:12:36,089 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-28 18:12:36,089 DEBUG   SenderThread:19260 [sender.py:send():380] send: history
+2023-11-28 18:12:36,089 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: summary_record
+2023-11-28 18:12:36,091 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:12:36,622 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:12:38,109 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:12:43,152 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:12:43,228 DEBUG   SenderThread:19260 [sender.py:send():380] send: stats
+2023-11-28 18:12:48,281 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:12:49,168 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:12:49,168 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:12:49,169 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:12:49,246 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-28 18:12:49,418 DEBUG   SenderThread:19260 [sender.py:send():380] send: history
+2023-11-28 18:12:49,418 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: summary_record
+2023-11-28 18:12:49,420 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:12:49,749 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:12:53,460 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:12:58,515 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:13:03,561 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:13:04,171 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:13:04,172 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:13:04,172 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:13:09,468 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:13:13,232 DEBUG   SenderThread:19260 [sender.py:send():380] send: stats
+2023-11-28 18:13:15,250 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:13:15,757 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-28 18:13:15,758 DEBUG   SenderThread:19260 [sender.py:send():380] send: history
+2023-11-28 18:13:15,758 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: summary_record
+2023-11-28 18:13:15,758 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:13:16,002 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:13:19,187 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:13:19,188 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:13:19,188 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:13:20,503 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:13:25,548 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:13:30,602 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:13:33,768 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-28 18:13:33,768 DEBUG   SenderThread:19260 [sender.py:send():380] send: history
+2023-11-28 18:13:33,768 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: summary_record
+2023-11-28 18:13:33,769 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:13:34,179 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:13:34,272 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:13:34,273 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:13:34,303 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:13:36,577 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:13:41,638 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:13:43,238 DEBUG   SenderThread:19260 [sender.py:send():380] send: stats
+2023-11-28 18:13:47,273 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:13:49,276 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:13:49,291 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:13:49,291 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:13:52,541 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:13:55,351 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-28 18:13:55,352 DEBUG   SenderThread:19260 [sender.py:send():380] send: history
+2023-11-28 18:13:55,352 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: summary_record
+2023-11-28 18:13:55,353 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:13:55,410 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:13:58,378 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:14:03,428 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:14:04,288 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:14:04,305 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:14:04,305 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:14:08,597 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:14:13,238 DEBUG   SenderThread:19260 [sender.py:send():380] send: stats
+2023-11-28 18:14:14,246 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:14:18,498 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-28 18:14:18,499 DEBUG   SenderThread:19260 [sender.py:send():380] send: history
+2023-11-28 18:14:18,499 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: summary_record
+2023-11-28 18:14:18,499 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:14:18,633 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:14:19,388 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:14:19,446 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:14:19,446 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:14:19,493 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:14:24,816 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:14:29,865 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:14:34,363 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:14:34,364 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:14:34,364 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:14:34,944 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-28 18:14:34,944 DEBUG   SenderThread:19260 [sender.py:send():380] send: history
+2023-11-28 18:14:34,945 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: summary_record
+2023-11-28 18:14:34,945 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:14:34,945 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:14:35,801 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:14:39,991 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:14:43,240 DEBUG   SenderThread:19260 [sender.py:send():380] send: stats
+2023-11-28 18:14:45,265 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:14:49,367 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:14:49,367 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:14:49,368 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:14:50,670 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:14:55,722 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:15:00,766 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:15:03,082 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-28 18:15:03,083 DEBUG   SenderThread:19260 [sender.py:send():380] send: history
+2023-11-28 18:15:03,083 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: summary_record
+2023-11-28 18:15:03,084 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:15:04,085 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:15:04,375 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-28 18:15:04,376 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:15:04,376 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: stop_status
+2023-11-28 18:15:04,398 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-28 18:15:04,661 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:15:04,662 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:15:04,662 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:15:04,662 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:15:04,662 DEBUG   SenderThread:19260 [sender.py:send():380] send: metric
+2023-11-28 18:15:04,662 DEBUG   SenderThread:19260 [sender.py:send():380] send: history
+2023-11-28 18:15:04,662 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: summary_record
+2023-11-28 18:15:04,663 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:15:05,092 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:15:05,565 DEBUG   SenderThread:19260 [sender.py:send():380] send: telemetry
+2023-11-28 18:15:05,566 DEBUG   SenderThread:19260 [sender.py:send():380] send: exit
+2023-11-28 18:15:05,566 INFO    SenderThread:19260 [sender.py:send_exit():585] handling exit code: 0
+2023-11-28 18:15:05,567 INFO    SenderThread:19260 [sender.py:send_exit():587] handling runtime: 232
+2023-11-28 18:15:05,567 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:15:05,567 INFO    SenderThread:19260 [sender.py:send_exit():593] send defer
+2023-11-28 18:15:05,567 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:05,567 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-28 18:15:05,568 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:05,568 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-28 18:15:05,568 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 1
+2023-11-28 18:15:05,568 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:05,568 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-28 18:15:05,568 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:05,568 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-28 18:15:05,568 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 2
+2023-11-28 18:15:05,568 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:05,568 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-28 18:15:05,568 INFO    HandlerThread:19260 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-28 18:15:05,568 DEBUG   SystemMonitor:19260 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-28 18:15:05,574 DEBUG   SystemMonitor:19260 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-28 18:15:05,574 INFO    HandlerThread:19260 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-28 18:15:05,574 INFO    HandlerThread:19260 [interfaces.py:finish():202] Joined disk monitor
+2023-11-28 18:15:05,608 INFO    HandlerThread:19260 [interfaces.py:finish():202] Joined gpu monitor
+2023-11-28 18:15:05,608 INFO    HandlerThread:19260 [interfaces.py:finish():202] Joined memory monitor
+2023-11-28 18:15:05,608 INFO    HandlerThread:19260 [interfaces.py:finish():202] Joined network monitor
+2023-11-28 18:15:05,608 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:05,608 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-28 18:15:05,609 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 3
+2023-11-28 18:15:05,609 DEBUG   SenderThread:19260 [sender.py:send():380] send: stats
+2023-11-28 18:15:05,609 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:05,609 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-28 18:15:05,609 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:05,609 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-28 18:15:05,609 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 4
+2023-11-28 18:15:05,609 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:05,610 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-28 18:15:05,610 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:05,610 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-28 18:15:05,610 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 5
+2023-11-28 18:15:05,610 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:05,610 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-28 18:15:05,610 DEBUG   SenderThread:19260 [sender.py:send():380] send: summary
+2023-11-28 18:15:05,611 INFO    SenderThread:19260 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-28 18:15:05,611 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:05,611 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-28 18:15:05,611 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 6
+2023-11-28 18:15:05,611 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:05,611 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-28 18:15:05,612 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:05,612 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-28 18:15:05,615 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: status_report
+2023-11-28 18:15:06,038 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 7
+2023-11-28 18:15:06,038 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:06,038 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-28 18:15:06,038 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:06,038 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-28 18:15:06,110 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:15:06,111 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\config.yaml
+2023-11-28 18:15:06,112 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\output.log
+2023-11-28 18:15:06,581 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-28 18:15:07,747 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 8
+2023-11-28 18:15:07,748 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: poll_exit
+2023-11-28 18:15:07,748 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:07,748 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-28 18:15:07,749 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:07,749 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-28 18:15:07,749 INFO    SenderThread:19260 [job_builder.py:build():281] Attempting to build job artifact
+2023-11-28 18:15:07,750 INFO    SenderThread:19260 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-11-28 18:15:07,750 INFO    SenderThread:19260 [job_builder.py:_get_program_relpath():411] run is notebook based run
+2023-11-28 18:15:07,751 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 9
+2023-11-28 18:15:07,751 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:07,751 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-28 18:15:07,752 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:07,752 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-28 18:15:07,752 INFO    SenderThread:19260 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-28 18:15:08,120 INFO    Thread-31 :19260 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\output.log
+2023-11-28 18:15:08,122 INFO    SenderThread:19260 [dir_watcher.py:finish():388] scan: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files
+2023-11-28 18:15:08,122 INFO    SenderThread:19260 [dir_watcher.py:finish():402] scan save: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\conda-environment.yaml conda-environment.yaml
+2023-11-28 18:15:08,122 INFO    SenderThread:19260 [dir_watcher.py:finish():402] scan save: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\config.yaml config.yaml
+2023-11-28 18:15:08,124 INFO    SenderThread:19260 [dir_watcher.py:finish():402] scan save: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\output.log output.log
+2023-11-28 18:15:08,125 INFO    SenderThread:19260 [dir_watcher.py:finish():402] scan save: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\requirements.txt requirements.txt
+2023-11-28 18:15:08,128 INFO    SenderThread:19260 [dir_watcher.py:finish():402] scan save: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-metadata.json wandb-metadata.json
+2023-11-28 18:15:08,128 INFO    SenderThread:19260 [dir_watcher.py:finish():402] scan save: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json wandb-summary.json
+2023-11-28 18:15:08,134 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 10
+2023-11-28 18:15:08,134 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:08,134 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-28 18:15:08,134 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:08,134 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-28 18:15:08,134 INFO    SenderThread:19260 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-28 18:15:08,565 INFO    wandb-upload_0:19260 [upload_job.py:push():131] Uploaded file C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\conda-environment.yaml
+2023-11-28 18:15:08,958 INFO    wandb-upload_1:19260 [upload_job.py:push():131] Uploaded file C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\config.yaml
+2023-11-28 18:15:08,966 INFO    wandb-upload_4:19260 [upload_job.py:push():131] Uploaded file C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\wandb-summary.json
+2023-11-28 18:15:09,385 INFO    wandb-upload_3:19260 [upload_job.py:push():131] Uploaded file C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\requirements.txt
+2023-11-28 18:15:09,397 INFO    wandb-upload_2:19260 [upload_job.py:push():131] Uploaded file C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\files\output.log
+2023-11-28 18:15:09,607 INFO    Thread-30 (_thread_body):19260 [sender.py:transition_state():613] send defer: 11
+2023-11-28 18:15:09,608 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:09,609 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-28 18:15:09,611 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:09,611 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-28 18:15:09,611 INFO    SenderThread:19260 [file_pusher.py:join():181] waiting for file pusher
+2023-11-28 18:15:09,612 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 12
+2023-11-28 18:15:09,612 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:09,613 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-28 18:15:09,613 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:09,614 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-28 18:15:09,615 INFO    SenderThread:19260 [file_stream.py:finish():595] file stream finish called
+2023-11-28 18:15:10,309 INFO    SenderThread:19260 [file_stream.py:finish():599] file stream finish is done
+2023-11-28 18:15:10,309 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 13
+2023-11-28 18:15:10,309 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:10,309 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-28 18:15:10,309 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:10,309 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-28 18:15:10,309 INFO    SenderThread:19260 [sender.py:transition_state():613] send defer: 14
+2023-11-28 18:15:10,310 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: defer
+2023-11-28 18:15:10,310 INFO    HandlerThread:19260 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-28 18:15:10,310 DEBUG   SenderThread:19260 [sender.py:send():380] send: final
+2023-11-28 18:15:10,310 DEBUG   SenderThread:19260 [sender.py:send():380] send: footer
+2023-11-28 18:15:10,310 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: defer
+2023-11-28 18:15:10,310 INFO    SenderThread:19260 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-28 18:15:10,311 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-28 18:15:10,311 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-28 18:15:10,312 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: server_info
+2023-11-28 18:15:10,312 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-28 18:15:10,312 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-28 18:15:10,312 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: job_info
+2023-11-28 18:15:10,312 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: poll_exit
+2023-11-28 18:15:10,313 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: server_info
+2023-11-28 18:15:10,506 DEBUG   SenderThread:19260 [sender.py:send_request():407] send_request: job_info
+2023-11-28 18:15:10,506 DEBUG   HandlerThread:19260 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-28 18:15:10,506 INFO    HandlerThread:19260 [handler.py:finish():866] shutting down handler
+2023-11-28 18:15:11,327 INFO    WriterThread:19260 [datastore.py:close():294] close: C:\Users\Kyeul\Desktop\code\competition\news_topic_classification\boong_u.klue-bert\wandb\run-20231128_181111-fdokzolm\run-fdokzolm.wandb
+2023-11-28 18:15:11,509 INFO    SenderThread:19260 [sender.py:finish():1534] shutting down sender
+2023-11-28 18:15:11,510 INFO    SenderThread:19260 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-28 18:15:11,510 INFO    SenderThread:19260 [file_pusher.py:join():181] waiting for file pusher
