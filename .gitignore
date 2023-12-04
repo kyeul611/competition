@@ -13,3 +13,6 @@
 *.h5
 *.pth
 *.npy
+
+/.ipynb_checkpoints
+/.virtual_documents
