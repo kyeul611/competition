@@ -1,0 +1,82 @@
+
+You're using a BertTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+[W 2023-11-27 19:52:02,047] Trial 0 failed with parameters: {'learning_rate': 7.771837139266603e-06, 'num_train_epochs': 5, 'seed': 6, 'per_device_train_batch_size': 32} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\optuna\study\_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\integrations\integration_utils.py", line 195, in _objective
+    trainer.train(resume_from_checkpoint=checkpoint, trial=trial)
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\trainer.py", line 1555, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\trainer.py", line 1860, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\trainer.py", line 2725, in training_step
+    loss = self.compute_loss(model, inputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\trainer.py", line 2748, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 1564, in forward
+    outputs = self.bert(
+              ^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 1013, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 607, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 539, in forward
+    layer_output = apply_chunking_to_forward(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\pytorch_utils.py", line 241, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 552, in feed_forward_chunk
+    layer_output = self.output(intermediate_output, attention_output)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 464, in forward
+    hidden_states = self.dense(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kyeul\anaconda3\envs\nlp\Lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

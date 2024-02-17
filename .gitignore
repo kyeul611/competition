@@ -222,6 +222,7 @@ $RECYCLE.BIN/
 /손글씨분류
 /result
 /data
+/wandb
 
 *.csv
 *.zip
@@ -229,4 +230,12 @@ $RECYCLE.BIN/
 *.json
 *.txt
 *.h5
+<<<<<<< HEAD
 >>>>>>> f454505171831410c4658bebfb3301d20bf743b0
+=======
+*.pth
+*.npy
+
+/.ipynb_checkpoints
+/.virtual_documents
+>>>>>>> c2dd805a845af51f472c0221a00afa9d0ed54cfb

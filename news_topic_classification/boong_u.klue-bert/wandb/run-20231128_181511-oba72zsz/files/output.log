@@ -1,0 +1,2 @@
+[I 2023-11-28 18:20:33,047] Trial 1 finished with value: 0.8977110940751287 and parameters: {'learning_rate': 8.17142456246069e-06, 'num_train_epochs': 5, 'seed': 35, 'per_device_train_batch_size': 32}. Best is trial 1 with value: 0.8977110940751287.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at klue/bert-base and are newly initialized: ['classifier.bias', 'classifier.weight']
