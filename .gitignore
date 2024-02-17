@@ -1,6 +1,11 @@
-<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/python,windows,git
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,windows,git
+
+data/
+
+# dataset
+*.csv
+*.tsv
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -216,7 +221,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,windows,git
-=======
 /주식종가예측
 /농산물가격예측
 /손글씨분류
@@ -230,12 +234,9 @@ $RECYCLE.BIN/
 *.json
 *.txt
 *.h5
-<<<<<<< HEAD
->>>>>>> f454505171831410c4658bebfb3301d20bf743b0
-=======
 *.pth
 *.npy
 
 /.ipynb_checkpoints
 /.virtual_documents
->>>>>>> c2dd805a845af51f472c0221a00afa9d0ed54cfb
+
